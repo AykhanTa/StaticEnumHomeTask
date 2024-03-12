@@ -1,5 +1,6 @@
 ﻿using StaticEnumHomeTask.Application.Enums;
 using StaticEnumHomeTask.Application.Services;
+using StaticEnumHomeTask.Extensions;
 
 namespace StaticEnumHomeTask
 {
@@ -7,16 +8,20 @@ namespace StaticEnumHomeTask
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Email daxil edin:");
-            string email=Console.ReadLine();
 
-            Console.WriteLine("Password daxil edin:");
-            string password = Console.ReadLine();
+            //Console.WriteLine("Email daxil edin:");
+            //string email=Console.ReadLine();
+
+            //Console.WriteLine("Password daxil edin:");
+            //string password = Console.ReadLine();
+
+            //Account account = new();
+            //account.Login(email, password, Roles.SuperAdmin);
+
+            //int num = 5;
+            //num.Factorial();
 
 
-
-            Account account = new();
-            account.Login(email, password, Roles.SuperAdmin);
         }
     }
 }
