@@ -21,7 +21,8 @@ namespace StaticEnumHomeTask
             //int num = 5;
             //num.Factorial();
 
-
+            string sentence = "Kamran Salam Kamran Necesen Kamran";
+            sentence.MatchCount("Kamran");
         }
     }
 }

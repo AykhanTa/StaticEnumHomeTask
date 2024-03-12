@@ -1,4 +1,6 @@
-﻿namespace StaticEnumHomeTask.Extensions
+﻿using System.Text.RegularExpressions;
+
+namespace StaticEnumHomeTask.Extensions
 {
     internal static class Extension
     {
@@ -11,5 +13,10 @@
             }
             Console.WriteLine(result);            
         }
+
+        public static void MatchCount(this string sentence, string word)
+        {
+            Console.WriteLine(Regex.Count(sentence, word));
+        } 
     }
 }
