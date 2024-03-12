@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using StaticEnumHomeTask.Application.Enums;
 
 namespace StaticEnumHomeTask.Application.Interfaces
 {
-    internal interface IAccount
+    public interface IAccount
     {
-        void Login(string username, string password);
+        void Login(string email, string password,Roles role);
+        bool CheckRole(Roles role);
     }
 }
